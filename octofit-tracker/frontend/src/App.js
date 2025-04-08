@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, Link } from 'react-router-dom';
+import {Route, Routes, Link } from 'react-router-dom';
 import Activities from './components/Activities';
 import Leaderboard from './components/Leaderboard';
 import Teams from './components/Teams';
@@ -10,7 +10,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
+    // Don't add Router here because it is already in index.js
     <div className="container">
+      <header className="logo">
+        <img src={`${process.env.PUBLIC_URL}/octofitapp-small.png`} alt="OctoFit Logo" />
+      </header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">OctoFit Tracker</Link>
