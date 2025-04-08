@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-s!s-(-+dtml&+4#=wz$e-012s7y9#23!f1r&ywa(b6l46hkek=
 DEBUG = True
 
 # Updated ALLOWED_HOSTS to allow all hosts
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['vigilant-invention-pvg965vvrxh5jg-8000.app.github.dev', 'localhost']
 
 
 # Application definition
