@@ -1,5 +1,7 @@
 from djongo import models
 
+# Models for OctoFit Tracker
+
 class User(models.Model):
     _id = models.ObjectIdField()
     username = models.CharField(max_length=100)
